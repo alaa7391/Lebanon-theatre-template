@@ -1,0 +1,76 @@
+              
+              {/*
+            
+              <div className="col_1_of_3 span_1_of_3">
+                <img
+                  src={
+                    "https://www.ticketingboxoffice.com/uploadImages/eventsPics/Events-T-626-636764896234627945.jpg"
+                  }
+                  alt=""
+                />
+                <ul className="m_fb">
+                  <li>
+                    <span className="m_24">
+                      <a href="#">
+                        <img src={require("./images/fb.png")} alt="" />
+                      </a>
+                    </span>
+                    <span className="middle">
+                      Aug 17, 2013 02:00pm-08-00pm IST
+                    </span>
+                    <span className="m_23">
+                      <a href="#">
+                        <img src={require("./images/heart.png")} alt="" />
+                      </a>
+                    </span>
+                    <div className="clear" />
+                  </li>
+                </ul>
+                <div className="desc">
+                  <h3>
+                    <a href="#">Lorem Ipsum is simply dummy</a>
+                  </h3>
+                  <h4 className="m_2">consectetur adipisicing elit, sed do</h4>
+                  <h5 className="m_3">
+                    sed do eiusmod tempor incididunt ut labore
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+                <div className="section group example">
+                  <div className="col_1_of_2 span_1_of_2">
+                    <ul>
+                      <li>
+                        <img src={require("./images/men.png")} alt="" />
+                        <div className="m_desc">
+                          <span className="m_2">57%</span>
+                          <br />
+                          <span className="m_3">Male</span>
+                        </div>{" "}
+                        <div className="clear" />
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col_1_of_2 span_1_of_2">
+                    <ul>
+                      <li>
+                        <img src={require("./images/women.png")} alt="" />
+                        <div className="m_desc">
+                          <span className="m_2">43%</span>
+                          <br />
+                          <span className="m_3">Fe male</span>
+                        </div>{" "}
+                        <div className="clear" />
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="clear" />
+                </div>
+              </div>
+
+*/}
+          
