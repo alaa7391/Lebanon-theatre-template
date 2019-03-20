@@ -69,12 +69,20 @@ class Event extends React.Component {
         }}
         className={classes.card}
       >
-        <CardMedia
-          className={classes.media}
-          image="https://www.antoineticketing.com/files/event_thumb_6600.jpg"
-          title="Paella dish"
-          style={{ backgroundSize: "contain", backgroundColor: "black" }}
-        />
+        <div
+          style={{
+            /*             backgroundImage: `url( "https://uploads.codesandbox.io/uploads/user/f24a336b-8faa-400c-b80d-dd3d8e82ff98/CbxD-Screenshot_2019-03-19_13-32-51.png"
+)` */
+            backgroundColor: "#333"
+          }}
+        >
+          {
+            <img
+              src={"https://www.antoineticketing.com/files/event_thumb_38.gif"}
+              alt=""
+            />
+          }
+        </div>
         <CardHeader
           /*   avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
@@ -90,7 +98,7 @@ class Event extends React.Component {
           subheader="September 14, 2016 "
           style={{ color: "red" }}
         />
-        <div>
+        <div style={{ width: " -moz-max-content" }}>
           <IconButton aria-label="Share">
             <Icon width={40} />{" "}
             <span style={{ fontSize: "1em" }}> 8:30 pm</span>

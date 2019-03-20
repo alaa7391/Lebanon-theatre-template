@@ -14,9 +14,9 @@ class App extends React.Component {
       <div className="App">
         <div className="header-top">
           <div className="wrap">
-            <div className="logo">
+            <div className="logo" style={{ width: "7em" }}>
               <a href="index.html">
-                <img src={require("./images/logo.png")} alt="" />
+                <img src={require("./images/logo2.png")} alt="" />
               </a>
             </div>
             <div className="cssmenu">
@@ -67,8 +67,12 @@ class App extends React.Component {
             </h2>
           </div>
         </div>
-        <div className="map">
-          <img src={require("./images/map.jpg")} alt="" />
+        <div className="map" style={{ height: "400px" }}>
+          <img
+            style={{ width: "100%" }}
+            src={require("./images/vector-illustration-of-theatre-masks.jpg")}
+            alt=""
+          />
         </div>
         <div className="content-box">
           <div className="wrap">
@@ -130,13 +134,15 @@ class App extends React.Component {
               <div className="col_1_of_3 span_1_of_3">
                 <div className="desc" style={{ padding: "0px 0px 0px 0px" }}>
                   <div>
-                    <Event
-                      style={{
-                        float: "left",
-                        margin: "10px 10px 10px 10px",
-                        borde: "2px solid black"
-                      }}
-                    />
+                    <div>
+                      <Event
+                        style={{
+                          float: "left",
+                          margin: "10px 10px 10px 10px",
+                          borde: "2px solid black"
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
